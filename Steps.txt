@@ -35,5 +35,29 @@ so for that write -e . at the end of the requirements.txt file
 
 Then you need to install the requirements using pip install -r requirements.txt
 
-then add the files to github: git add . 
+then add the files to github: git add .
+check git status to verify how many files got modified and  new file added
+then git commit -m "setup"
+then git push -u origin main
+
+
+part 2
+
+Now create a folder called components inside src where all the modules will be there such as data ingestion(reading the data from sources like files or folders or cloud)
+So data ingestion can be our module and which will be a part of our components
+then add file called __init__.py and add data_ingestion.py and data_transformation.py and model_trainer.py
+then add folder called pipeline and add train_pipeline.py, predict_pipeline.py
+
+then add logger.py for logging
+then add exception.py for exception handling
+then add utils.py for common codes so that we can reuse them whenever requirements
+then write code for exception.py
+then write code for logger.py
+
+then test the logger.py and exception.py
+then add the changes to the github
+git add .
+check git status to verify how many files got modified and  new file added
+then git commit -m "setup"
+then git push -u origin main
 
