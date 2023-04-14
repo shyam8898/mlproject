@@ -1,0 +1,39 @@
+1) Create a github repo called mlproject
+2) Create a folder in local named as mlproject
+3) Create a seperate python environment within same folder: conda create -p venv python==3.8 -y
+4) Activate the environment: conda activate /venv
+
+Github steps:
+echo "# mlproject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shyam8898/mlproject.git
+
+Before pushing add Git Configuration:
+git config --global user.name "shyam8898"
+git config --global user.email "shyampatel801@gmal.com"
+
+git push -u origin main
+
+Then create a new file in your github project called .gitignore over there click on add new file and give a name .gitignore and select python and give commit it also give name Create .gitignore file
+Then type git pull in local to get all the updates which you have done in github
+
+Create setup.py and requirement.txt
+
+setup.py is for creating the entire code or application as a python package which can be utilized by someone else
+
+Write code for setup.py
+
+Create src folder where our entire development is going to take place
+
+create get_requirements() function so that we can get all the packages which are required in developement we may require 1000 of packages to build the application so it is not advicable to type in a list
+
+After writing code for get_requirements() we need to trigger setup.py automatically so that it can install the required packages
+so for that write -e . at the end of the requirements.txt file
+
+Then you need to install the requirements using pip install -r requirements.txt
+
+then add the files to github: git add . 
+
