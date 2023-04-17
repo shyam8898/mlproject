@@ -73,3 +73,10 @@ check git status to verify how many files got modified and  new file added
 then git commit -m "data ingestion"
 then git push -u origin main
 
+write code for data transformation and utils
+then add the changes to the github
+git add .
+check git status to verify how many files got modified and  new file added
+then git commit -m "data ingestion"
+then git push -u origin main
+
