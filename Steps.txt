@@ -58,6 +58,18 @@ then test the logger.py and exception.py
 then add the changes to the github
 git add .
 check git status to verify how many files got modified and  new file added
-then git commit -m "setup"
+then git commit -m "logging and exception"
+then git push -u origin main
+
+Next do EDA and model training in jupyter notebook create notebook folder
+
+Next write code for data_ingesttion.py
+
+add .artifacts in .gitignore file 
+
+then add the changes to the github
+git add .
+check git status to verify how many files got modified and  new file added
+then git commit -m "data ingestion"
 then git push -u origin main
 
