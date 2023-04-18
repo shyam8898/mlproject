@@ -84,6 +84,12 @@ write code for model_trainer.py with hyperparameter and utils
 then add the changes to the github
 git add .
 check git status to verify how many files got modified and  new file added
-then git commit -m "data transformation"
+then git commit -m "Model training and hyperparameter tuning"
 then git push -u origin main
 
+then create app.py, predict_pipeline.py 
+then add the changes to the github
+git add .
+check git status to verify how many files got modified and  new file added
+then git commit -m "Prediction Pipeline"
+then git push -u origin main
